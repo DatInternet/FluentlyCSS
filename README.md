@@ -4,3 +4,9 @@
   </a>
 </p>
 <h3 align="center">GatesUI</h3>
+
+<p align="center">
+  -DESC- MICROSOFT UI
+  <br>
+  <a href="https://example.com/docs"><strong>-- Browse the docs --</strong></a>
+  <br>
