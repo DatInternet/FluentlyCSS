@@ -6,7 +6,7 @@
 <h3 align="center">Fluently</h3>
 
 <p align="center">
-  -DESC- MICROSOFT UI
+  Fluently, a CSS Framwork based on the Fluent design language 
   <br>
-  <a href="https://example.com/docs"><strong>-- Browse the docs --</strong></a>
+  <a href="https://example.com/docs"><strong>-- Browse the documentation --</strong></a>
   <br>
