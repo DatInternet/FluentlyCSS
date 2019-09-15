@@ -7,7 +7,7 @@
 
 <p align="center">
   Fluently, a CSS Framwork based on the Fluent design language 
-  <br>
-  <h4 align="center">Now in development!</h4>
-  <a align="center" href="https://example.com/docs"><strong align="center">-- Development Demo's --</strong></a>
 </p>
+<br>
+  <h4 align="center">Now in development!</h4>
+  <p align="center" ><a href="https://example.com/docs"><strong align="center">-- Development Demo's --</strong></a></p>
