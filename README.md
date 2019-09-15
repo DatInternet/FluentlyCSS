@@ -10,3 +10,4 @@
   <br>
   <h4>Now in development!</h4>
   <a href="https://example.com/docs"><strong>-- Development Demo's --</strong></a>
+</p>
