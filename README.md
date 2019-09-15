@@ -9,5 +9,5 @@
   Fluently, a CSS Framwork based on the Fluent design language 
   <br>
   <h4 align="center">Now in development!</h4>
-  <a href="https://example.com/docs"><strong align="center">-- Development Demo's --</strong></a>
+  <a align="center" href="https://example.com/docs"><strong align="center">-- Development Demo's --</strong></a>
 </p>
