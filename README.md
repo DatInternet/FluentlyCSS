@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://example.com">
-    <img src="https://media.datinternet.nl/fluently/Icon/0.5x.png" width="150">
+    <img src="https://media.datinternet.nl/fluently/redesign/icon_1x.png" width="150">
   </a>
 </p>
 <h3 align="center">Fluently</h3>
