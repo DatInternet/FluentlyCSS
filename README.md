@@ -40,4 +40,4 @@ Fluently is not ready for any public test, keep a eye on our [Twitter](https://t
 
 ## Copyright and license
 
-Code Copyright 2019 DatInternet. Code released under the MIT license.
+Code Copyright 2019 - 2020 DatInternet. Code released under the MIT license.
