@@ -376,6 +376,7 @@ body {
     height: 100%;
     z-index: 5000;
     background-color: rgba(255, 255, 255, 0.5);
+    animation: fluently_fadein 0.35s ease-in;
 }
 
 .fluently_panel {
@@ -445,4 +446,13 @@ body {
   
 .depth-64 {
     box-shadow: 0 25.6px 57.6px 0 rgba(0, 0, 0, 0.22), 0 4.8px 14.4px 0 rgba(0, 0, 0, 0.18);
+}
+
+@keyframes fluently_fadein {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
