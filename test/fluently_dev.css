@@ -385,6 +385,8 @@ body {
     width: 340px;
     right: 0px;
     background-color: white;
+    animation: fluently_slidein_left 0.4s cubic-bezier(0,.5,.5,1);
+    transition: 0.4s cubic-bezier(0,.5,.5,1);
 }
 
 .fluently_panel_navigation {
@@ -454,5 +456,21 @@ body {
     }
     100% {
         opacity: 100%;
+    }
+}
+
+@keyframes fluently_slidein_left {
+    from {
+      transform: translate3d(40px, 0px, 0px);
+    }
+  
+    to {
+      transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .fluently_panel {
+        width: 100%;
     }
 }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fluently Test Pages</title>
+    <meta name="description" content="Fluently CSS Test Pages">
+    <link rel="icon" href="https://media.datinternet.nl/fluently/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./fluently_dev.css">
+    <style>
+    html {
+        background-image: url(https://betanews.com/wp-content/uploads/2018/11/windowslight1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+    }
+    body {
+        margin: 0;
+        font-family: SegoeUI;
+
+    }
+
+    @font-face {
+        font-family: SegoeUI;
+        src:
+            local("Segoe UI"),
+            url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+            url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+            url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+        font-weight: 400;
+    }
+
+    a {
+        color: #0078d4;
+        text-decoration-line: none;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: #0c4d7e;
+        text-decoration-line: underline;
+    }
+
+    header {
+        padding: 18px 20px 21px;
+    }
+
+    .fluentlydev_button_colored {
+        color: #0078d4;
+        padding: 6px 26px;
+        background-color: white;
+        border-radius: 3px;
+        font-size: 12px;
+        transition: 0.2s;
+    }
+
+    .fluentlydev_button_colored:hover {
+        background-color: rgba(240, 234, 234, 1.0);
+        color: #106EBE;
+        text-decoration: none;
+    }
+
+    #fluentlydev_header_logo {
+        float: right;
+        height: 46px;
+        margin-top: -11px;
+        margin-right: -10px;
+    }
+
+    #content {
+        position: fixed;
+        height: calc(100vh - 62px);
+        width: 100%;
+        overflow-y: scroll;
+        background-color: rgba(255, 255, 255, 0.4);
+        padding-left: 10px;
+    }
+    </style>
+</head>
+<body>
+    <header class="color-fluently">
+        <a class="fluentlydev_button_colored" href="https://fluently.datinternet.nl">Home</a>
+        <img src="https://media.datinternet.nl/fluently/branding/icon_colored.svg" id="fluentlydev_header_logo">
+    </header>
+    <div id="content">
+        <h1>Fluently Colors</h1>
+        <a href="colors.html" class="fluentlydev_button_colored">Go to page</a>
+        <h1>Fluently Side Panel</h1>
+        <a href="sidenav.html" class="fluentlydev_button_colored">Go to page</a>
+    </section>
+</body>
+</html>
