@@ -379,6 +379,10 @@ body {
     animation: fluently_fadein 0.35s ease-in;
 }
 
+.fluently_panel_nomodal {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
 .fluently_panel {
     position: fixed;
     height: 100%;

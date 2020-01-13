@@ -71,9 +71,6 @@
         width: 100%;
         overflow-y: scroll;
         background-color: rgba(255, 255, 255, 0.4);
-    }
-
-    h1 {
         padding-left: 10px;
     }
     </style>
@@ -86,11 +83,27 @@
     <section id="content">
         <h1>Fluently Panel</h1>
         <a class="fluentlydev_button_colored" style="margin-left: 10px;" onclick="document.getElementById('fluently_panel').style.display = 'block'">Open Panel</a>
+        <p>No modal</p>
+        <a class="fluentlydev_button_colored" style="margin-left: 10px;" onclick="document.getElementById('fluently_panel_nobg').style.display = 'block'">Open Panel</a>
     </section>
     <div class="fluently_panel_container" id="fluently_panel">
         <div class="fluently_panel depth-64">
             <div class="fluently_panel_navigation">
                 <a class="fluently_panel_navigation_closebtn" onclick="document.getElementById('fluently_panel').style.display = 'none'">
+                    <i class="icon ms-Icon--Cancel" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="fluently_panel_content">
+                <p class="fluently_panel_title">Panel Title</p>
+                <p class="fluently_panel_text">This is a Fluently Panel. A sidemenu to give people more information or give them a option for something.</p>   
+                <a class="fluently_button_colored">Button</a> 
+            </div>
+        </div>
+    </div>
+    <div class="fluently_panel_container fluently_panel_nomodal" id="fluently_panel_nobg">
+        <div class="fluently_panel depth-64">
+            <div class="fluently_panel_navigation">
+                <a class="fluently_panel_navigation_closebtn" onclick="document.getElementById('fluently_panel_nobg').style.display = 'none'">
                     <i class="icon ms-Icon--Cancel" aria-hidden="true"></i>
                 </a>
             </div>
