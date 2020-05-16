@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://example.com">
+  <a href="https://fluently.datinternet.nl">
     <img src="https://media.datinternet.nl/fluently/branding/icon_colored.svg" width="150">
   </a>
 </p>
