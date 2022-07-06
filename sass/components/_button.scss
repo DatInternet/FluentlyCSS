@@ -1,0 +1,30 @@
+button, input[type="submit"], input[type="reset"] {
+    color: #000000;
+    background-color: #fdfdfe;
+    justify-content: center;
+    line-height: 20px;
+    padding-block: 4px 6px;
+    padding-inline: 11px;
+    border: 1px solid;
+    border-color: #e9ebee #e9ebee #d0d2d4 #e9ebee;
+    border-radius: 4px;
+    &:hover {
+        background-color: #f9fafb;
+    } &:active {
+        color: #626364;
+        border-color: #e9ebee #e9ebee #e9ebee #e9ebee;
+    }
+}
+
+.accent {
+    color: white;
+    background-color: #005fb8;
+    border: 1px solid hsla(0, 0%, 100%, 8%);
+    border-bottom-color: hsla(0, 0%, 0%, 40%);
+    &:hover {
+        background-color: #186ebf;
+    } &:active {
+        color: hsla(0, 0%, 100%, 70%);
+        border: 1px solid hsla(0, 0%, 100%, 0%); 
+    }
+}

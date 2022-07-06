@@ -1,0 +1,46 @@
+/* Segoe UI - Fonts */
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Light'),
+       url(../../fonts/SegoeUI-Light.woff2) format('woff2'),
+       url(../../fonts/SegoeUI-Light.woff) format('woff'),
+       url(../../fonts/SegoeUI-Light.ttf) format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Semilight'),
+        url(../../fonts/SegoeUI-Semilight.woff2) format('woff2'),
+        url(../../fonts/SegoeUI-Semilight.woff) format('woff'),
+        url(/../../fonts/SegoeUI-Semilight.ttf) format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI'),
+        url(../../fonts/SegoeUI.woff2) format('woff2'),
+        url(../../fonts/SegoeUI.woff) format('woff'),
+        url(../../fonts/SegoeUI.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Semibold'),
+      url(../../fonts/SegoeUI-Semibold.woff2) format('woff2'),
+      url(../../fonts/SegoeUI-Semibold.woff) format('woff'),
+      url(../../fonts/SegoeUI-Semibold.ttf) format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI Bold'),
+        url(../../fonts/SegoeUI-Bold.woff2) format('woff2'),
+        url(../../fonts/SegoeUI-Bold.woff) format('woff'),
+        url(../../fonts/SegoeUI-Bold.ttf) format('truetype');
+    font-weight: 700;
+}

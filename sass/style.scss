@@ -1,0 +1,11 @@
+@use 'base/fonts';
+@use 'components/button';
+@use 'components/modal';
+
+/* Base */
+
+body {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+

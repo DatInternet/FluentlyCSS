@@ -1,0 +1,64 @@
+/* Segoe UI - Fonts */
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI Light"), url(../../fonts/SegoeUI-Light.woff2) format("woff2"), url(../../fonts/SegoeUI-Light.woff) format("woff"), url(../../fonts/SegoeUI-Light.ttf) format("truetype");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI Semilight"), url(../../fonts/SegoeUI-Semilight.woff2) format("woff2"), url(../../fonts/SegoeUI-Semilight.woff) format("woff"), url(/../../fonts/SegoeUI-Semilight.ttf) format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI"), url(../../fonts/SegoeUI.woff2) format("woff2"), url(../../fonts/SegoeUI.woff) format("woff"), url(../../fonts/SegoeUI.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI Semibold"), url(../../fonts/SegoeUI-Semibold.woff2) format("woff2"), url(../../fonts/SegoeUI-Semibold.woff) format("woff"), url(../../fonts/SegoeUI-Semibold.ttf) format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI Bold"), url(../../fonts/SegoeUI-Bold.woff2) format("woff2"), url(../../fonts/SegoeUI-Bold.woff) format("woff"), url(../../fonts/SegoeUI-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+button, input[type=submit], input[type=reset] {
+  color: #000000;
+  background-color: #fdfdfe;
+  justify-content: center;
+  line-height: 20px;
+  padding-block: 4px 6px;
+  padding-inline: 11px;
+  border: 1px solid;
+  border-color: #e9ebee #e9ebee #d0d2d4 #e9ebee;
+  border-radius: 4px;
+}
+button:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #f9fafb;
+}
+button:active, input[type=submit]:active, input[type=reset]:active {
+  color: #626364;
+  border-color: #e9ebee #e9ebee #e9ebee #e9ebee;
+}
+
+.accent {
+  color: white;
+  background-color: #005fb8;
+  border: 1px solid hsla(0deg, 0%, 100%, 0.08);
+  border-bottom-color: hsla(0deg, 0%, 0%, 0.4);
+}
+.accent:hover {
+  background-color: #186ebf;
+}
+.accent:active {
+  color: hsla(0deg, 0%, 100%, 0.7);
+  border: 1px solid hsla(0deg, 0%, 100%, 0);
+}
+
+/* Base */
+body {
+  font-family: "Segoe UI";
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
