@@ -1,0 +1,51 @@
+:root {
+    /* Accent Colors */
+	--accent-light-3: 191, 98%, 80%;
+	--accent-light-2: 199, 99%, 69%;
+	--accent-light-1: 205, 100%, 49%;
+	--accent-base: 206, 100%, 42%;
+	--accent-dark-1: 209, 100%, 36%;
+	--accent-dark-2: 215, 100%, 29%;
+	--accent-dark-3: 226, 100%, 20%;
+
+    /* Font Size */
+	--fds-caption-font-size: 12px;
+	--fds-body-font-size: 14px;
+	--fds-body-large-font-size: 18px;
+	--fds-subtitle-font-size: 20px;
+	--fds-title-font-size: 28px;
+	--fds-title-large-font-size: 40px;
+	--fds-display-font-size: 68px;
+
+	/* Roundness */
+	--control-corner-radius: 4px;
+	--overlay-corner-radius: 8px;
+}
+
+/*@media (prefers-color-scheme: light) {*/
+	:root {
+		/* Text */
+		--text-primary: hsla(0, 0%, 0%, 89.56%);
+		--text-secondary: hsla(0, 0%, 0%, 60.63%);
+		--text-tertiary: hsla(0, 0%, 0%, 44.58%);
+		--text-disabled: hsla(0, 0%, 0%, 36.14%);
+
+		/* Accent */
+		--accent-default: hsl(var(--accent-dark-1));
+		--accent-secondary: hsla(var(--accent-dark-1), 90%);
+		--accent-tertiary: hsla(var(--accent-dark-1), 80%);
+		--accent-disabled: hsla(0, 0%, 0%, 21.69%);
+
+        /* Accent Text */
+		--accent-text-primary: hsl(var(--accent-dark-2));
+		--accent-text-secondary: hsl(var(--accent-dark-3));
+		--accent-text-tertiary: hsl(var(--accent-dark-1));
+		--accent-text-disabled: hsla(0, 0%, 0%, 36.14%);
+
+		/* Text on Accent */
+		--text-on-accent-primary: hsl(0, 0%, 100%);
+		--text-on-accent-secondary: hsla(0, 0%, 100%, 70%);
+		--text-on-accent-disabled: var(--text-on-accent-secondary);
+		--text-on-accent-selected: var(--text-on-accent-primary);
+    }
+/*}*/

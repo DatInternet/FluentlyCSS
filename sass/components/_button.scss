@@ -1,4 +1,4 @@
-button, input[type="submit"], input[type="reset"] {
+button, input[type="submit"], input[type="reset"], .button {
     color: #000000;
     background-color: #fdfdfe;
     justify-content: center;
@@ -16,15 +16,29 @@ button, input[type="submit"], input[type="reset"] {
     }
 }
 
-.accent {
-    color: white;
-    background-color: #005fb8;
+.button-accent {
+    color: var(--text-on-accent-primary);
+    background-color: var(--accent-default);
     border: 1px solid hsla(0, 0%, 100%, 8%);
     border-bottom-color: hsla(0, 0%, 0%, 40%);
     &:hover {
-        background-color: #186ebf;
+        color: var(--text-on-accent-secondary);
+        background-color: var(--accent-secondary);
     } &:active {
-        color: hsla(0, 0%, 100%, 70%);
+        background-color: var(--accent-tertiary);
+        color: var(--text-on-accent-secondary);
         border: 1px solid hsla(0, 0%, 100%, 0%); 
+    }
+}
+
+.button-hyperlink {
+    background-color: #ffffff00;
+    color: #003e94;
+    border: 1px solid hsla(0, 0%, 0%, 0%);
+    &:hover {
+        background-color: hsla(0, 0%, 0%, 3.75%);
+    } &:active {
+        color: #005fb8;
+        border-color: hsla(0, 0%, 0%, 0%);
     }
 }
